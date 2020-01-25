@@ -1,0 +1,39 @@
+header{
+    height: 4em;
+    background-color: cadetblue;
+    padding: 1em;   
+}
+
+ul{
+    float: right;
+    padding: 1px;
+    text-align: center;
+}
+
+.container{
+    width: 60%;
+    background-color: cyan;
+    padding: 1em;
+    margin-left: 15em;
+}
+
+.aa{
+    text-align: center;
+}
+
+article{
+    background-color: blanchedalmond;
+    height: 5em;
+    padding: 2em;
+    margin-top: 0.1em;
+}
+div .article-list{
+    padding: 2em;
+}
+footer{
+    color: cornsilk;
+    background-color: cadetblue;
+    height: 3em;
+    text-align: center;
+    font-size: small;
+}

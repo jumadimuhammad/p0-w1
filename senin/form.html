@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Halaman register</title>
+    </head>
+
+    <body>
+        
+        <H1>Buat Account Baru!</H1>
+        <fieldset>    
+            <legend><h3>Sign Up Form</h3></legend>
+            <form action="submit.html" type="submit" method="POST">
+                <label for="first_name">First Name</label><br>
+                <input type="text" name="first_name" id="first_name"><br><br>
+                <label for="last_name">Last Name</label><br>
+                <input type="text" name="last_name" id="last_name"><br><br>
+
+                <label for="gender"><b>Gender</b></label><br>
+                <input type="radio" id="radio-male" name="male" value="Male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="radio-female" name="female" value="Female">
+                <label for="female">Female</label><br>
+                <input type="radio" id="radio-other" name="other" value="Other">
+                <label for="other">Other</label><br><br>
+
+
+                <label for="national">Nationality</label><br>
+                <input type="text" name="national" list="nationality">
+                <datalist id="nationality">
+                    <select name="national">
+                        <option value="malaysia"></option>
+                        <option value="thailand"></option>
+                        <option value="cina"></option>
+                        <option value="indonesia"></option>
+                    </select>
+                </datalist><br><br>
+
+                <label for="gender"><b>Language Spoken</b></label><br>
+                <input type="checkbox" id="indonesia" name="indonesia" value="Bahasa indonesia">
+                <label for="indonesia">Bahasa indonesia</label><br>
+                <input type="checkbox" id="english" name="english" value="English">
+                <label for="english">English</label><br>
+                <input type="checkbox" id="other" name="other" value="Other">
+                <label for="other">Other</label><br><br>
+
+                <label for="bio"><b>Bio</b></label><br>
+                <textarea name="bio" id="bio" cols="20" rows="5"></textarea><br><br>
+
+                <button type="submit" name="submit" id="submit">Sign Up</button>
+            </form>
+        </fieldset>
+
+    </body>
+    <footer>
+        <h5>Created by Me</h5>
+    </footer>
+    
+</html>
